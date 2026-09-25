@@ -1,3 +1,4 @@
+import os
 import re
 import logging
 import asyncio
@@ -6,7 +7,7 @@ from aiogram.types import Message
 from aiogram.filters import Command
 
 # ================== НАСТРОЙКИ ==================
-BOT_TOKEN = "8338246475:AAEjZVEarHk64tGrCaoP0HZA_SHgx4wF9GU"
+BOT_TOKEN = os.getenv("8338246475:AAEjZVEarHk64tGrCaoP0HZA_SHgx4wF9GU")
 ALLOWED_CHAT_ID = -1001889607662
 # ===============================================
 
